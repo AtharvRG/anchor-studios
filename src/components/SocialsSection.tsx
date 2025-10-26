@@ -2,34 +2,38 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { FaWhatsapp, FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
-import { CiMail } from "react-icons/ci";
+import { FaWhatsapp, FaLinkedin, FaDiscord, FaGithub, FaGlobe, FaEnvelope } from "react-icons/fa";
 
 // THE FIX: The new, expanded cast list
 const socials = [
   {
     name: "WhatsApp",
-    url: "#", // Replace with your link
+    url: "https://wa.me/917204413709", 
     icon: <FaWhatsapp size={32} />,
   },
   {
     name: "Email",
-    url: "mailto:youremail@gmail.com", // Replace with your email
-    icon: <CiMail size={32} />,
+    url: "mailto:youremail@gmail.com", 
+    icon: <FaEnvelope size={32} />,
+  },
+  {
+    name: "Website",
+    url: "https://atharv.is-a-good.dev", 
+    icon: <FaGlobe size={32} />,
   },
   {
     name: "GitHub",
-    url: "#", // Replace with your GitHub profile
+    url: "https://github.com/AtharvRG", 
     icon: <FaGithub size={32} />,
   },
   {
     name: "LinkedIn",
-    url: "#", // Replace with your LinkedIn profile
+    url: "https://www.linkedin.com/in/atharvrgachchi", 
     icon: <FaLinkedin size={32} />,
   },
   {
     name: "Discord",
-    url: "#", // Replace with your Discord link
+    url: "https://discord.com/users/393580863629164554", 
     icon: <FaDiscord size={32} />,
   },
 ];
