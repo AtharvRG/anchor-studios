@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // Here we define our film's color palette.
+      colors: {
+        background: "#222222ff", // The Void
+        foreground: "#F5F5F5", // The Light
+        accent: "#CEFF1A",     // The Funk (Electric Lime)
+      },
+      // Here we define our film's typography.
+      fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
+        display: ["Clash Display", "sans-serif"],
       },
     },
   },
