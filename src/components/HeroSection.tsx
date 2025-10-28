@@ -34,11 +34,11 @@ const HeroSection = () => {
       <div className="absolute inset-x-0 top-0 flex justify-center">
         <div className="w-full max-w-screen-lg">
           <CurvedLoop 
-            marqueeText="Open Source ✦ Creatiion Overloaded ✦ "
+            marqueeText="Open Source ✦ Innovation ✦ Design Dopamine ✦ Creativity ✦"
             speed={1}
-            curveAmount={450} 
+            curveAmount={450}
             interactive={true}
-            verticalOffset={-30} 
+            verticalOffset={-30}
             className="text-foreground/50 text-[clamp(1rem,6vw,2rem)]"
           />
         </div>
