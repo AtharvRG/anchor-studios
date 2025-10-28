@@ -12,7 +12,7 @@ export const metadata: {
   title: string;
   description: string;
 } = {
-  title: "Anchor Studios",
+  title: "Anchor",
   description: "A solo developer's creative showcase.",
 };
 
